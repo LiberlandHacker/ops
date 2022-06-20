@@ -1,16 +1,16 @@
 # Packages
 
-A package is a way of distributing a given application with it's
-dependencies. All of this functionality is present in OPS proper but the
+A package is a way of distributing a given application with its
+dependencies. All of this functionality is present in OPS proper, but the
 package interface allows users to distribute their packages as a bundled
 resource without having to compile or add missing dependencies.
 
-Sometimes this is OS related and sometimes it's application specific but
-for OPS purpose there's no difference.
+Sometimes this is OS-related and sometimes it's application-specific, but
+for OPS purposes there's no difference.
 
 Think of common software that you would ```sudo apt-get install``` or
-web frameworks with native dependencies or something of that sort - it's
-not intended for developer specific in-house applications.
+web frameworks with native dependencies or something of that sort: they're
+not intended for developer-specific in-house applications.
 
 Ready to create your own package?
 
@@ -105,7 +105,7 @@ tar czf "$PKGNAME"_"$PKGVERSION".tar.gz "$PKGNAME"_"$PKGVERSION"
 
 Now you are ready to upload it. If you don't have an account you can
 create one for free at https://repo.ops.city. Just sign in with
-your github account.
+your GitHub account.
 
 You can upload it via the web interface at https://repo.ops.city or you
 can use the shell:
